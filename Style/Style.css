@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background: url(https://w.wallhaven.cc/full/dp/wallhaven-dpl3x3.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgb(19, 30, 124);
+    font-family: helvetica;
+   }
+   nav{
+    background-color: rgba(85, 85, 85, 0.212);
+    width: 100%;
+   }
+   .menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+   }
+   .lista a{
+    text-decoration: none;
+    color: rgb(221, 214, 214);
+    display: block;
+    padding: 15px 50px;
+   }
+   .menu .lista{
+    display: inline-block;
+   }
+   .lista-r{
+    float: right;
+   }
+   .lista a:hover{
+    background-color: rgb(87, 83, 83);
+   }
+   img{
+    margin-top: 10px;
+    border-radius: 50%;
+    width: 200px;
+    height: 150px;
+    border: 5px solid rgb(17, 17, 17);
+   }
+   main{
+    text-align: center;
+   }
+
+   p{
+    font-size: 22px;
+    font-weight: 600;
+   }
+   .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   }
+  input{
+    border: 0;
+    padding: 10px;
+    font-size: 18px;
+    margin: 5px;
+    background-color: rgba(66, 64, 92, 0.6);
+    color: aliceblue;
+  }
+  label{
+        font-size: 22px;
+        font-weight: 600;
+
+  }
+  #textarea{
+    border: 0;
+    font-size: 18px;
+    margin: 5px;
+    background-color: rgba(57, 54, 75, 0.6);
+    color: rgb(163, 140, 140);
+  }
+  button[type= "submit"]{
+    background: rgb(52, 53, 63);
+    color: rgb(252, 252, 252);
+    padding: 10px;
+    font-family: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+  }
+   input::placeholder{
+    color: rgb(255, 255, 255);
+   
+   }
+  input:focus{
+    outline: none;
+    background-color: rgb(28, 28, 37);
+    
+  }
+  p{
+    color: rgb(19, 30, 124);
+    font-size: 18px;font-weight: 600;
+   }
+
+.info {
+  border: 5px red solid;
+  width: 50%;
+}
+
+#main2 {
+  height: 90vh;
+   justify-content: center;
+  align-items: center;
+}
+
+   
+   
+   
