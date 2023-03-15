@@ -75,7 +75,7 @@ body{
     font-size: 18px;
     margin: 5px;
     background-color: rgba(57, 54, 75, 0.6);
-    color: rgb(163, 140, 140);
+    color: rgb(255, 255, 255);
   }
   button[type= "submit"]{
     background: rgb(52, 53, 63);
