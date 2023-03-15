@@ -102,5 +102,5 @@ body{
 .info {
   border: 5px red solid;
   width: 50%;
-  justify-content: center;
+  text-align:  center;
 }
