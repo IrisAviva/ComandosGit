@@ -12,7 +12,8 @@ function LeerDatos() {
  nombre= document.getElementById('nombre').value
  correo= document.getElementById('correo').value
  mensaje= document.querySelector('#textarea').value
-console.log(nombre)
+ValidarDatos(nonbre,correo,textarea)
+GuardarLocalStorage(nombre.correo,mensaje)
 }
 
 function ValidarDatos(nombre, correo, mensaje){
@@ -26,4 +27,15 @@ function ValidarDatos(nombre, correo, mensaje){
         iconColor: 'purple'
     })
    }
+}
+function GuardarLocalStorage(nombre,correo,textarea){
+    localStorage.setItem('nombre',nombre)
+    localStorage.setItem('correo',correo)
+    localStorage.setItem('textarea',textarea)
+    ListarDaros()
+}
+function ListarDaros(){
+    let nombreUsu = localStorage.getItem('nombre')
+    let correoUsu = localStorage.getItem('correo')
+    let textareaUsu = localStorage.getItem('textarea')
 }
