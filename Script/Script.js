@@ -13,7 +13,7 @@ function LeerDatos() {
  correo= document.getElementById('correo').value
  mensaje= document.querySelector('#textarea').value
 ValidarDatos(nombre,correo,textarea)
-GuardarLocalStorage(nombre,correo,mensaje)
+
 }
 
 function ValidarDatos(nombre, correo, mensaje){
@@ -27,6 +27,8 @@ function ValidarDatos(nombre, correo, mensaje){
         iconColor: 'purple'
     })
    }
+   else GuardarLocalStorage(nombre,correo,mensaje)
+   
 }
 function GuardarLocalStorage(nombre,correo,textarea){
     localStorage.setItem('nombre',nombre)
