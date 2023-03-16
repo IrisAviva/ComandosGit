@@ -19,7 +19,7 @@
 14. **h1,h2,h3,h4,h5,h6** Se utilizan para explicar el contenido que irá a continuación
 15. **header /header** Define la cabecera de la página web. Logo, menu de navegación, etc
 16. **footer /footer** Define el pie de la página
-###Etiquetas para la agrupación de contenido
+### Etiquetas para la agrupación de contenido
 17. **p /p** Se utiliza para escribir párrafos
 18. **hr** 
 
