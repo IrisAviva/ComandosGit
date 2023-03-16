@@ -20,11 +20,12 @@ function ValidarDatos(nombre, correo, mensaje){
    if(nombre.length==0 || correo.length==0 || mensaje.length==0) {
  
     Swal.fire({
-        title: 'Error1',
-        text: 'do you want to continue',
+        title: 'Error',
+        text: 'Si quiere enviar, debe llenar la información completa.',
         icon: 'error',
-        confirmButtonText: 'cool',
-        iconColor: 'purple'
+        confirmButtonText: 'ok', 
+        confirmButtonColor: 'black',
+        iconColor: 'black'
     })
    }
    else GuardarLocalStorage(nombre,correo,mensaje)
