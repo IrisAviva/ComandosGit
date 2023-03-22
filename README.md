@@ -138,13 +138,8 @@ _selector de pseudoelemento :: (notación actual)_
 
 _los combinadores son +, ~, >,entre otros_
 
-**Selectores css compuesto** Es una cadena de selectores simples sin combinadores 
-
-
-
-
-
-
+**Selectores css compuesto**
+Es una cadena de selectores simples sin combinadores 
 
 
 
