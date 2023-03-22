@@ -36,7 +36,7 @@
 29. **strong /strong** Se utiliza para definir una palabra o un conjunto de las mismas como importantes
 30. **br** Se utiliza para crear un salto de línea 
 
-##Consulta 30 estilos Css.
+### Consulta 30 estilos Css.
 1. **Font-family** Se utiliza para definir la familia de la topográfia 
 2. **Font-size** Se utiliza para definir el tamaño de al fuente, el valor se escribe en px o em (se recomienda em, pero si el usuario no cambia el tamaño por defecto es 16px)
 3. **Color** Se utiliza para definir el color de la tipográfia
@@ -61,7 +61,7 @@ ej:#content {background-repeat: repeat-x;}
 ej:#content {background-position: center;}
 20. **display** Es el modo en que se muetra un elemnto o imagen (también puede no mostrarse), uno muy común es el elemento en bloque (block)
 21. **z-index** Se utiliza para definir la posición de un elemento o imagen en el eje z (para poner elementos tapando a otros elementos) 
-###Para añadir espacios o márgenes
+### Para añadir espacios o márgenes
 22. **text-shadow** Coloca una sombra difuminada en el texto dentro del elemento
 23. **border-color** Establece el color del borde
 24. **border-width** Establece el ancho de todos los bordes
@@ -71,10 +71,15 @@ ej:#content {background-position: center;}
 28. **border-left-width** Establece el ancho de la línea del borde izquierdo
 29. **table-layout** Establece el ancho de las celdas de una tabla según el contenido
 30. **text-transform** convierte texto a caracteres en mayúsculas o minúsculas
-###Consulta que es Display block, inline e inline-block
+
+### Consulta que es Display block, inline e inline-block
+
 **Display block** Un elemento que ocupa el ancho máximo disponible
+
 **inline** Elementos en línea, solo ocupan el ancho que necesitan para mostrar su contenido, se colocan de izquierda a derecha, cuando no tienen espacio pasan a línea de abajo
+
 **inline-block** Es la combinación de los dos tipos de elementos anteriores, estos admiten dimensiones, pero todavía son elementos en línea (estarán colocados uno al lado de otro)
+
 ### Mencionar en la consulta anterior de las etiquetas cuales son
 etiquetas block, inline e inline-block
 
@@ -117,7 +122,7 @@ etiquetas block, inline e inline-block
 
 **unload (onunload)** Se da cuando se abandona una página, bien sea por entrar aun enlace que lo lleve a otra página o por cerrar la ventana del navegador 
 
-###Consultar que son los selectores simples y los compuestos.
+ ### Consultar que son los selectores simples y los compuestos.
 
 **Selector css simple** Es el que está formado por una única cadena textual un selector individual es el *
 
