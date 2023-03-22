@@ -75,37 +75,62 @@ ej:#content {background-position: center;}
 **Display block** Un elemento que ocupa el ancho máximo disponible
 **inline** Elementos en línea, solo ocupan el ancho que necesitan para mostrar su contenido, se colocan de izquierda a derecha, cuando no tienen espacio pasan a línea de abajo
 **inline-block** Es la combinación de los dos tipos de elementos anteriores, estos admiten dimensiones, pero todavía son elementos en línea (estarán colocados uno al lado de otro)
-###Mencionar en la consulta anterior de las etiquetas cuales son
+### Mencionar en la consulta anterior de las etiquetas cuales son
 etiquetas block, inline e inline-block
 
-###Consultar cuales son los eventos en JavaScript.
-**abort (onabort)** El evento se produce cuando el usuario detiene la carga de una imagen, bien sea po detener la carga, por realizar una acción que lo detiene o porque se retira de la página
+### Consultar cuales son los eventos en JavaScript.
+**abort (onabort)** El evento se produce cuando el usuario detiene la carga de una imagen, bien sea po detener la carga, por realizar una acción que lo detiene o porque se retira de la página.
+
 **blur (onblur)** se da el onblur cuando de el elemento pierde el foco de la aplicación, esto es por ejemplo donde puede estar situado el cursor (un botón, un campo de trxto, etc)
+
 **click (onclick)** Se produce cuando se da clic en un botón o un enlace
+
 **dragdrop (ondragdrop)** Cuando el usuario suelta algo que había arrastrado sobre la página
+
 **error (onerror)** Cuando no se puede cargar un documento o una imagen y esta queda rota
+
 **focus (onfocus)** Se produce cuando un elemento de la página gana el foco de la aplicación
+
 **keydown (onkeydown)** Se produce cuando el usuario presiona una tecla, este se produce en el momento de la pulsación
+
 **keypress (onkeypress)** Se produce cuando el usuario deja pulsada una tecla un tiempo determinado, antes de este se produce un onkeydown en el momento ene lque se pulsa la tecla
+
 **keyup (onkeyup)** Se produce cuando el usuario de ja de apretar una tecla, cuando se libera
+
 **mousedown (onmousedown)** Se produce cuando el usuario pulsa sobre un elemento de la página
+
 **mousemove (onmousemove)** Se produce cuando el ratón se mueve por la página
+
 **mouseout (onmouseout)** Se produce cuando el puntero del ratón sale del área ocupada por un elemento de la página 
+
 **mouseover (onmouseover)**  Se produce cuando el puntero del ratón entra en el área ocupada por un elemento de la página
+
 **move (onmove)** Se ejecuta cuando se mueve la ventana del navegador o un frame
+
 **resize (onresize)** Se produce cuando se redimensiona la ventana del navegador o el frame (si la página los tiene)
+
 **reset (onreset)** (está relacionado con los formularios) y se produce cuando el usuario hace clic en el botón de reset de un formulario
+
 **select (onselect)** Se ejecuta cuando el usuario selecciona un elemento de un formulario
+
 **submit (onsubmit)** Se produce cuando el usuario apreta el botón de enviar el formulario, se da antes del envío propiamente dicho
+
 **unload (onunload)** Se da cuando se abandona una página, bien sea por entrar aun enlace que lo lleve a otra página o por cerrar la ventana del navegador 
+
 ###Consultar que son los selectores simples y los compuestos.
-**Selector css simple** Es el que está formado por una única cadena textual
-*un selector individual es el *
-*selectores por tipo de elemento del DOM son: div, p...
-*selector de ID # 
-*selector de clase .
-*selector de pseudoclase ;
-*selector de pseudoelemento :: (notación actual)
+
+**Selector css simple** Es el que está formado por una única cadena textual un selector individual es el *
+
+_selectores por tipo de elemento del DOM son: div, p..._
+
+selector de ID # 
+
+selector de clase .
+
+selector de pseudoclase ;
+
+selector de pseudoelemento :: (notación actual)
+
 los combinadores son +, ~, >,entre otros
 
 **Selectores css compuesto** Es una cadena de selectores simples sin combinadores 
