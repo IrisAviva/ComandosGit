@@ -128,15 +128,15 @@ etiquetas block, inline e inline-block
 
 _selectores por tipo de elemento del DOM son: div, p..._
 
-selector de ID # 
+_selector de ID #_
 
-selector de clase .
+_selector de clase ._
 
-selector de pseudoclase ;
+_selector de pseudoclase ;_
 
-selector de pseudoelemento :: (notación actual)
+_selector de pseudoelemento :: (notación actual)_
 
-los combinadores son +, ~, >,entre otros
+_los combinadores son +, ~, >,entre otros_
 
 **Selectores css compuesto** Es una cadena de selectores simples sin combinadores 
 
