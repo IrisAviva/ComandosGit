@@ -51,7 +51,7 @@
 12. **letter-spacing** Se utiliza para dar espaciado especifico entre caracteres, se trabaja con px
 13. **line-height** Se utiliza para el interlineado entre renglones de texto, se trabaja con px  
 14. **vertical-align** Se utiliza para la alineación vertical del texto
-###para elementos gráficos de la web
+### para elementos gráficos de la web
 15. **width** Se utiliza para dar el ancho de un elemento o imagen, se trabaja con px, en y %
 16. **height** Se utiliza para dar la altura a un elemento o imagen
 17. **background-image** imagen de fondo para un elemento
@@ -81,7 +81,25 @@ ej:#content {background-position: center;}
 **inline-block** Es la combinación de los dos tipos de elementos anteriores, estos admiten dimensiones, pero todavía son elementos en línea (estarán colocados uno al lado de otro)
 
 ### Mencionar en la consulta anterior de las etiquetas cuales son
-etiquetas block, inline e inline-block
+**etiquetas block, inline e inline-block**
+## block
+h1,h2,h3,h4,h5,h6
+p
+hr
+pre
+blockquote
+ol
+ul
+li
+dl
+
+## inline
+strong
+br
+font
+
+
+## inline-block
 
 ### Consultar cuales son los eventos en JavaScript.
 **abort (onabort)** El evento se produce cuando el usuario detiene la carga de una imagen, bien sea po detener la carga, por realizar una acción que lo detiene o porque se retira de la página.
