@@ -20,25 +20,53 @@
         </nav>
     </header>
 <main id="main2">
-    <div class="info">
-        
-            <p id="dueño">Dueño del vehiculo:</p>
+    <form action="" id="form">
+            
+    <div class="contenedor">
+
+        <div id="dueño">
+            <p>Dueño del vehiculo:</p>
             <input type="text" placeholder="Dueño del vehiculo" id="Dueño">
+        </div>          
+        
+        <div id="modelo">
+          <p>Modelo del vehiculo</p>
+        <input type="number" placeholder="Modelo de vehiculos" id="Modelo">  
+        </div>
+        
+        <div id="placa-tipo">
+            <div>
+              <p>Placa del vehiculo</p>
+              <input type="text" placeholder="NN-NN-LL" id="Placa">
+            </div>
+
+            <div>
+              <p>Tipo de vehiculo</p>
+              <input type="text" placeholder="carro moto" id="Tipo"> 
+            </div>
+        </div>
         
         
-        <p>Modelo del vehiculo</p>
-        <input type="number" placeholder="Modelo de vehiculos" id="Modelo">
-        <p>Placa del vehiculo</p>
-        <input type="text" placeholder="NN-NN-LL" id="Placa">
-        <p>Tipo de vehiculo</p>
-        <input type="text" placeholder="carro moto" id="Tipo"> 
-        <p>FEchas de entrada</p>
-        <input type="date" placeholder="Fechas de entrada" id="Entrada">
-        <p>Hora de inicio</p>
-        <input type="text" placeholder="hh:mm" id="Inicio">
-        <p>Cantidad de horas</p>
-        <input type="number" placeholder="Cantidad" id="Horas">
+        <div id="fecha-hora-cantidad">
+           <div>
+              <p>Fechas de entrada</p>
+              <input type="date" placeholder="Fechas de entrada" id="Entrada">   
+           </div>
+        
+           <div>
+              <p>Hora de inicio</p>
+              <input type="time" placeholder="hh:mm" id="Inicio">
+           </div>
+        
+           <div>
+              <p>Cantidad de horas</p>
+              <input type="number" placeholder="Cantidad" id="Horas">
+           </div> 
+        </div>
+        
+        
     </div>
+    </form>
 </main>
 </body>
 </html>
