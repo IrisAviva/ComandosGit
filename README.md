@@ -21,21 +21,7 @@
 16. **footer /footer** Define el pie de la página
 ### Etiquetas para la agrupación de contenido
 17. **p /p** Se utiliza para escribir párrafos
-18. **hr** Se utiliza como separador
-19. **pre /pre** Se utiliza para pegar texto manteniendo el formato que tenía
-20. **blockquote /blockquote** Se utiliza para indicar que el contenido es texto citado
-21. **ol /ol** Se utiliza para crear una lista orenada
-22. **ul /ul** Se utiliza para crear ina lista des-ordenada
-23. **li /li** Se utiliza para recoger el contenido de un elemento de cualquier lista
-24. **dl /dl** Se utiliza patra crear una lista de definiciones
-25. **figure /figure** Se utliza para indicar una figura ilustrada como parte del documento html5
-26. **figure /figure** se utliza para definir el subtitulo de una figura
-27. **div /div** Se utiliza para crear un contenedor genérico
-### Etiquetas semánticas para texto
-28. **a /a** Se utiliza para crear hiperenlaces en el documento html
-29. **strong /strong** Se utiliza para definir una palabra o un conjunto de las mismas como importantes
-30. **br** Se utiliza para crear un salto de línea 
-
+18. **hr** 
 
 
 Trabajo de clase con comandos de Git
