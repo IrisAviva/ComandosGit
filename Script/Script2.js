@@ -29,7 +29,7 @@ function LeerDatos() {
          icon: 'error',
          confirmButtonText: 'ok', 
          confirmButtonColor: 'black',
-         iconColor: 'black'
+         iconColor: 'red'
      })
     }
     else GuardarLocalStorage(Dueno, Modelo, Placa, Tipo, Fecha, Hora, Cantidad)
