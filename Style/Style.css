@@ -101,17 +101,55 @@ body{
     font-size: 18px;font-weight: 600;
    }
 
-.info {
-  border: 5px red solid;
-  width: 50%;
-  text-align:  center;
-}
+   .info {
+    border: 5px red solid;
+    width: 50%;
+    text-align:  center;
+  }
+  
+  #main2{
+    display: flex;
+    flex-direction: column;
+  
+    justify-content: center;
+    align-items: center;
+  }
 
-#main2{
+
+.contenedor {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  border: 5px rgb(33, 1, 94) solid;
+  background-color: rgba(195, 195, 216, 0.6);
+  width: 100%;
+    
+}
 
+#placa-tipo {
+  display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
 
+#fecha-hora-cantidad {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+button[type= "submit2"]{
+  background: rgb(52, 53, 63);
+  color: rgb(252, 252, 252);
+  padding: 10px;
+  font-family: 20px;
+  font-weight: 600;
+  border-radius: 5px;
+  }
+#main2{
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
